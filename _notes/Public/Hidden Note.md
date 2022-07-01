@@ -13,3 +13,7 @@ I would recommend using sub-folders inside `_notes` (Eg: Public and Private) and
 [[mckelvey-box]]
 
 [[McKelvey Box]]
+
+[[Swanson's Rule]]
+
+[[Swanson Rule]]
