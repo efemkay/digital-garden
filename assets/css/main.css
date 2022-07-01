@@ -1,4 +1,27 @@
 /*! bulma.io v0.8.2 | MIT License | github.com/jgthms/bulma */
+
+/* === efemkay custom css === */
+
+
+.content ul {
+	list-style: outside;
+	position: relative;
+	padding-left: 1.2em;
+}
+
+/* custom css for indentation guides for bullets */
+ul {
+	position: relative; margin-left: -0.5em;
+}
+ul ul::before {
+	content: "";
+	position: absolute; margin-left: -0.85em; margin-top: 0;
+	border-left: 1px solid black;
+	top: 0; bottom: 0.85em; left: 0;
+}
+
+/* === end of efemkay custom css === */
+
 @keyframes spinAround {
   from {
     transform: rotate(0deg); }
@@ -171,7 +194,7 @@ iframe,
 hr,
 {
   margin: 0;
-  padding: 0; 
+  padding: 0;
 }
 
 ul {
@@ -1139,10 +1162,10 @@ a.box-feed:active {
       list-style-type: upper-roman; }
 ol p {
         display: contents;
-    }      
+    }
 .content ul {
   list-style: inside;
-  margin-top: 1rem; 
+  margin-top: 1rem;
   padding-left: 0.4rem;
   margin-block: 0;
 }
@@ -2507,7 +2530,7 @@ a.navbar-item,
   .navbar-link::after {
     display: none; }
   .navbar-menu {
-    
+
    }
     .navbar-menu.is-active {
       display: block; }
@@ -3855,7 +3878,7 @@ a.navbar-item,
 @media screen and (min-width: 769px), print {
   .section.is-note .column.is-primary-content,
     .note-page-section {
-      padding: 0rem; } 
+      padding: 0rem; }
   .note-cards .content {
     width: 88%; }
     }
@@ -3901,4 +3924,3 @@ a.tag:hover {
   input {
     color:(--color-text-sub) !important;
   }
-  
