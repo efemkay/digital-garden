@@ -1,6 +1,6 @@
---- 
-layout: Stylesheet 
---- 
+---
+layout: Stylesheet
+---
 @import "fruity.css";
 
 
@@ -54,12 +54,21 @@ html[data-theme="dark"] {
 }
 
 :root {
+    /* original values *//*
     --text-xs: clamp(0.70rem, calc(0.79rem + -0.06vw), 0.78rem);
     --text-s: clamp(0.94rem, calc(0.94rem + 0.00vw), 0.94rem);
     --text-m: clamp(1.13rem, calc(1.11rem + 0.09vw), 1.25rem);
     --text-l: clamp(1.35rem, calc(1.30rem + 0.23vw), 1.67rem);
     --text-xl: clamp(1.62rem, calc(1.53rem + 0.43vw), 2.22rem);
     --text-xxl: clamp(1.94rem, calc(1.80rem + 0.73vw), 2.96rem);
+    */
+    --text-xs: clamp(0.70rem, calc(0.79rem + -0.06vw), 0.78rem);
+    --text-s: clamp(0.94rem, calc(0.94rem + 0.00vw), 0.94rem);
+    --text-m: clamp(1.00rem, calc(1.0rem + 0.09vw), 1.2rem);
+    --text-l: clamp(1.25rem, calc(1.20rem + 0.23vw), 1.55rem);
+    --text-xl: clamp(1.50rem, calc(1.40rem + 0.43vw), 2.00rem);
+    --text-xxl: clamp(1.75rem, calc(1.60rem + 0.73vw), 2.70rem);
+
     --text-jumbo: clamp(2.33rem, calc(2.10rem + 1.15vw), 4rem);
     --text-weight-bold: 600;
     --text-weight-normal: 400;
@@ -1593,6 +1602,3 @@ a[href^="http"] {
         padding-top: 2rem;
     }
 }
-
-
-
