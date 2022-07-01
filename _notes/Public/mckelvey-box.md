@@ -1,8 +1,5 @@
 ---
 title: "McKelvey’s Box"
-categories:
-  - Petroleum Economics
-  - Resources Classification
 ---
 
 - #### McKelvey’s Box is a simple device/diagram for visualizing categories of oil and mineral reserves and resources that shows level of uncertainty and risk
