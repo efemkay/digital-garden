@@ -3,7 +3,7 @@
 /* === efemkay custom css === */
 
 
-.content ul {
+.content.content ul {
 	list-style: outside;
 	position: relative;
 	padding-left: 1.2em;

@@ -1,5 +1,5 @@
 ---
-title: "McKelvey’s Box"
+title: "McKelvey Box"
 ---
 
 - #### McKelvey’s Box is a simple device/diagram for visualizing categories of oil and mineral reserves and resources that shows level of uncertainty and risk
