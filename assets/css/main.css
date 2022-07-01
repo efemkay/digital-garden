@@ -2,23 +2,19 @@
 
 /* === efemkay custom css === */
 
+	/* custom css for indentation guides for bullets */
 
-.content.content ul {
-	list-style: outside;
-	position: relative;
-	padding-left: 1.2em;
-}
+	.content.content ul { list-style: outside; position: relative; padding-left: 1.2em; }
+	.content li { margin-left: 0.6em; }
 
-/* custom css for indentation guides for bullets */
-ul {
-	position: relative; margin-left: -0.5em;
-}
-ul ul::before {
-	content: "";
-	position: absolute; margin-left: -0.85em; margin-top: 0;
-	border-left: 1px solid black;
-	top: 0; bottom: 0.85em; left: 0;
-}
+	ul ul::before {
+		content: "";
+		position: absolute; margin-left: -0.3em; margin-top: 0;
+		border-left: 1px solid gray;
+		top: 0; bottom: 0.8em; left: 0;
+	}
+
+	img { background-color: lightgray; }
 
 /* === end of efemkay custom css === */
 

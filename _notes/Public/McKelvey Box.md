@@ -1,6 +1,3 @@
----
-title: "McKelvey Box"
----
 
 - #### McKelvey’s Box is a simple device/diagram for visualizing categories of oil and mineral reserves and resources that shows level of uncertainty and risk
 	- The original McKelvey box (with SPE-AAPG-WPC terminology) shows basic terminology with simple uncertainty grouping
