@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -19,19 +19,19 @@
 # in the templates via {{ site.myvariable }}.
 
 # URL is the base hostname with protocol for your site, eg http://example.com
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://efemkay.github.io/digital-garden/" # the base hostname & protocol for your site, e.g. http://example.com
 
-# If you want to install this jekyll in a subpath (eg /digitalgarden) set it here. 
+# If you want to install this jekyll in a subpath (eg /digitalgarden) set it here.
 # Else keep it Empty (DON'T PUT /; Keep it empty)
 baseurl: ""
 
-# Website Header, Description, Footer year and text. 
-# If you are deleting this, make sure you remove it from HTML files too 
-heading: Jekyll Garden # Change this 
+# Website Header, Description, Footer year and text.
+# If you are deleting this, make sure you remove it from HTML files too
+heading: Jekyll Garden # Change this
 content: Obsidian ready Jekyll Theme
-copyright:  
+copyright:
   year: © 2022
-  msg: Contents under CC-BY-NC 
+  msg: Contents under CC-BY-NC
 
 # Set title and content for private & broken link tooltop
 privatelinks:
@@ -43,15 +43,15 @@ privatelinks:
 preferences:
   search:
     enabled: true
-  wiki_style_link: 
+  wiki_style_link:
     enabled: true
-  pagepreview: 
+  pagepreview:
     enabled: true
   backlinks:
     enabled: true
 # To enable a homepage, change the value to true and add content to _includes/Homepage.html
-# If enable : false, notes feed will be as homepage. 
-  homepage: 
+# If enable : false, notes feed will be as homepage.
+  homepage:
     enabled: true ##If you need a homepage, change this to true and edit _includes/Homepage.html
 
 encoding: utf-8
@@ -59,10 +59,10 @@ encoding: utf-8
 # Build settings
 theme: null
 plugins:
-  - jekyll-feed 
-  - jekyll-sitemap 
+  - jekyll-feed
+  - jekyll-sitemap
   - jekyll-tidy
-    
+
 ## Enable Collections
 ## Suggested collects are "notes" "lists" and "blog"
 collections:
@@ -78,7 +78,7 @@ kramdown:
   math_engine: katex
   smart_quotes: ["apos", "apos", "quot", "quot"]
   syntax_highlighter: rouge
-  
+
 sass:
   style: compressed
 
