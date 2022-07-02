@@ -1,0 +1,8 @@
+- #### Metadata
+	- topic:: [[00 Statistics]]
+	- updated:: [[2022-06-05]]
+	- reviewed:: [[2022-06-05]]
+	- #FleetingNote #toexpand 
+- [Geometric Brownian motion - Wikipedia](https://en.wikipedia.org/wiki/Geometric_Brownian_motion)
+	- a continuous-time [stochastic process](https://en.wikipedia.org/wiki/Stochastic_process "Stochastic process") in which the [logarithm](https://en.wikipedia.org/wiki/Logarithm "Logarithm") of the randomly varying quantity follows a [Brownian motion](https://en.wikipedia.org/wiki/Brownian_motion "Brownian motion") (also called a [Wiener process](https://en.wikipedia.org/wiki/Wiener_process "Wiener process")) with [drift](https://en.wikipedia.org/wiki/Stochastic_drift)
+	- It is an important example of stochastic processes satisfying a [stochastic differential equation](https://en.wikipedia.org/wiki/Stochastic_differential_equation "Stochastic differential equation") (SDE); in particular, it is used in [mathematical finance](https://en.wikipedia.org/wiki/Mathematical_finance "Mathematical finance") to model stock prices in the [Black–Scholes model](https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_model "Black–Scholes model").
