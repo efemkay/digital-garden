@@ -1,3 +1,6 @@
-#MOC 
+---
+title: 00 Productivity
+feed: show
+---
 
-Notes related to productivity and self improvement
+#MOC | Hub for notes related to productivity and self improvement

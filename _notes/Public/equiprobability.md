@@ -1,3 +1,7 @@
+---
+title: equiprobability
+---
+
 - #### Metadata
 	- topic:: 
 	- updated:: 

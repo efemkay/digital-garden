@@ -1,7 +1,7 @@
 ---
 title: 00 Statistics
 feed: show
-dg-publish: true
+dg-publish: false
 ---
 
 - #### Metadata

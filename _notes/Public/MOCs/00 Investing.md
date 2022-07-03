@@ -1,4 +1,8 @@
-> - #MOC 
+---
+title: 00 Investing
+feed: show
+---
+#MOC | hub note
 
 - ## MOCs
 	- [[Dividend Investing References]]

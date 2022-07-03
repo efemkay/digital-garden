@@ -27,11 +27,11 @@ baseurl: "/digital-garden"
 
 # Website Header, Description, Footer year and text.
 # If you are deleting this, make sure you remove it from HTML files too
-heading: Jekyll Garden # Change this
+heading: Efemkay's Digital Garden # Change this
 content: Obsidian ready Jekyll Theme
 copyright:
   year: © 2022
-  msg: Contents under CC-BY-NC
+  msg: Efemkay
 
 # Set title and content for private & broken link tooltop
 privatelinks:
@@ -52,7 +52,7 @@ preferences:
 # To enable a homepage, change the value to true and add content to _includes/Homepage.html
 # If enable : false, notes feed will be as homepage.
   homepage:
-    enabled: true ##If you need a homepage, change this to true and edit _includes/Homepage.html
+    enabled: false ##If you need a homepage, change this to true and edit _includes/Homepage.html
 
 encoding: utf-8
 
