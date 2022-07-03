@@ -15,6 +15,13 @@
 
 	.note-page-section img { background-color: lightgray; }
 
+	.content.content ul ul { margin-bottom: -0.5rem; }
+	.content li { padding-bottom: 0.4rem }
+	body {
+		--text-leading-wide: 1.3;
+	}
+
+
 /* === end of efemkay custom css === */
 
 @keyframes spinAround {
@@ -3360,7 +3367,7 @@ a.navbar-item,
       margin-left: 33.33333%; }
     .column.is-5-widescreen {
       flex: none;
-      width: 41.66667%; }
+      width: 50%; } /* original 41.66667% */
     .column.is-offset-5-widescreen {
       margin-left: 41.66667%; }
     .column.is-6-widescreen {
