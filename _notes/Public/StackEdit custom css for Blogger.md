@@ -1,6 +1,7 @@
 ---
 title: StackEdit custom css for Blogger
 dg-publish: true
+share: true
 ---
 
 - #### StackEdit already has a beautiful css formatting for html export, which can be used to publish to blogger but with few exceptions
@@ -15,9 +16,8 @@ dg-publish: true
 		```
 
 ## Metadata
-- #### Metadata
-	- topic:: [[00 Coding]]
-		- related:: [[css snippets]]
-	- updated:: [[2022-07-02]]
-	- reviewed:: [[2022-07-02]]
-	- #FleetingNote 
+- topic:: [[00 Coding]]
+	- related:: [[css snippets]]
+- updated:: [[2022-07-02]]
+- reviewed:: [[2022-07-02]]
+- #FleetingNote 

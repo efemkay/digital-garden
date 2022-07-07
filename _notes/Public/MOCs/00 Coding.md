@@ -1,7 +1,7 @@
 ---
 title: 00 Coding
 feed: show
-dg-publish: false
+share: true
 ---
 
-#MOC 
+#MOC / `for programming language, coding guide and libraries`

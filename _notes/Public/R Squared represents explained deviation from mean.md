@@ -1,5 +1,6 @@
 ---
 title: R Squared represents explained deviation from mean
+share: true
 dg-publish: true
 ---
 

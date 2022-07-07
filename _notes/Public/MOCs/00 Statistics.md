@@ -4,6 +4,5 @@ feed: show
 dg-publish: false
 ---
 
-- #### Metadata
-	- #MOC 
-		- `this is a hub note. no info, only TOC/MOC`
+
+#MOC  / `Hub for notes related to general statistical knowledge`
