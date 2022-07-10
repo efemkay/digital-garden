@@ -5,5 +5,5 @@
 layout: Post
 permalink: /
 title: Jekyll Garden
-feedformat: row
+feedformat: card
 ---
