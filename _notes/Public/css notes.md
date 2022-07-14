@@ -1,3 +1,7 @@
+---
+title: css notes
+---
+
 - #### Metadata
 	- topic:: [[00 Coding]]
 	- updated:: [[2022-06-09]]

@@ -23,7 +23,7 @@ title: NIL query control
 
 ## Metadata
 - #### Metadata
-	- topic:: [[Obsidian]]
+	- topic:: [[00 Obsidian]]
 	- updated:: [[2022-07-03]]
 	- reviewed:: [[2022-07-03]]
 	- #PersonalNote 

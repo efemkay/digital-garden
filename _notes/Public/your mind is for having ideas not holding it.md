@@ -6,7 +6,7 @@ title: your mind is for having ideas not holding it
 
 ## Metadata
 - #### Metadata
-	- topic:: 
+	- topic:: [[00 Productivity]]
 	- updated:: 
 	- reviewed:: 
 	- #FleetingNote 

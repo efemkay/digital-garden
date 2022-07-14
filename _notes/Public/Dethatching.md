@@ -1,3 +1,7 @@
+---
+title: Dethatching
+---
+
 - #### Metadata
 	- topic:: [[00 Gardening]]
 	- updated:: [[2022-02-02]]

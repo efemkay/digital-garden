@@ -2,10 +2,11 @@
 title: equiprobability
 ---
 
-- #### Metadata
-	- topic:: 
-	- updated:: 
-	- reviewed:: 
-	- #FleetingNote 
+## References
+- [Equiprobability - Wikipedia](https://en.wikipedia.org/wiki/Equiprobability)
 
-[Equiprobability - Wikipedia](https://en.wikipedia.org/wiki/Equiprobability)
+## Metadata
+- topic:: [[00 Statistics]]
+- updated:: 
+- reviewed:: 
+- #FleetingNote 

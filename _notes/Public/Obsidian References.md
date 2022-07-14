@@ -1,5 +1,5 @@
 - #### Metadata
-	- topic:: 
+	- topic:: [[00 Obsidian]]
 	- updated:: [[2022-03-20]]
 	- reviewed:: [[2022-03-20]]
 	- #CodeNote #guide 

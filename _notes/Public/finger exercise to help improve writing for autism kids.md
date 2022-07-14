@@ -1,3 +1,7 @@
+---
+title: finger exercise to help improve writing for autism kids
+---
+
 - #### Autistic kids can improve fine motor skills needed to perform prolong hand writing by performing few exercises
 	- Most autistic kids lack or have reduced mastery on fine motor skills especially fingers
 	- ##### tip to tip

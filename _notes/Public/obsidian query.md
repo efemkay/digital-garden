@@ -1,3 +1,7 @@
+---
+title: obsidian query
+---
+
 normal obsidian query is quite simple (e.g. below)
 ~~~prose
 ```query
@@ -18,7 +22,7 @@ renderMarkdown: true
 ~~~
 
 - #### Metadata
-	- topic:: [[Obsidian]]
+	- topic:: [[00 Obsidian]]
 	- updated:: [[2022-07-06]]
 	- reviewed:: [[2022-07-06]]
 	- #FleetingNote 

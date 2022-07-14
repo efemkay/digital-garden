@@ -1,5 +1,5 @@
 - #### Metadata
-	- topic:: 
+	- topic:: [[00 Coding]]
 		- related:: [[Power Query]], [[Power BI]]
 	- updated:: 
 	- reviewed:: 
