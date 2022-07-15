@@ -1,0 +1,7 @@
+
+.section .columns.is-centered {
+    flex-direction: column;
+}
+.columns.is-centered .column {
+    margin-inline: auto;
+}

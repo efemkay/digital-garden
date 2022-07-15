@@ -2,6 +2,8 @@
 
 /* === efemkay custom css === */
 
+@import "efemkay-styling.css";
+
 	/* custom css for indentation guides for bullets */
 
 	.content.content ul { list-style: outside; position: relative; padding-left: 1.2em; }
