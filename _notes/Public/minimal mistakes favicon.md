@@ -1,3 +1,6 @@
+---
+title: minimal mistakes favicon
+---
 related:: [[Blogging]]
 
 - place favicon logo with name `favicon.png` in the main `/` directory

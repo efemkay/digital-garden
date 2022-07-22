@@ -1,3 +1,7 @@
+---
+title: Obsidian References
+---
+
 - #### Metadata
 	- topic:: [[00 Obsidian]]
 	- updated:: [[2022-03-20]]

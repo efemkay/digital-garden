@@ -1,3 +1,6 @@
+---
+title: IRR has 3 key pitfalls to watch out for
+---
 - #### Metadata
 	- topic:: [[00 Economics]]
 	- updated:: [[2022-01-12]]

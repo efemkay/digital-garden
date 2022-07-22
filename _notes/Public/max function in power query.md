@@ -1,3 +1,6 @@
+---
+title: max function in power query
+---
 - #### Metadata
 	- topic:: [[00 Coding]]
 		- related:: [[Power Query]], [[Power BI]]

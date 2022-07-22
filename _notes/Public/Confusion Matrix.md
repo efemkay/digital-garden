@@ -21,14 +21,14 @@ alias: true positive false positive
 
 ## Review #flashcards/statistics
 **What does Sensitivity in Confusion Matrix represents?** || It measures how many correct positives or true positive predictions out of all true positives. It means, “are you able to pickup all the positives?”
-<!--SR:!2022-07-05,3,150-->
+<!--SR:!2022-08-03,15,150-->
 **Describe the formula for Sensitivity?** || $Recall = \frac{TP}{TP+FN}$
-<!--SR:!2022-07-04,2,130-->
+<!--SR:!2022-07-31,12,130-->
 **What does Precision in Confusion Matrix represents?** || It measures how many correct positives or true positive out of all predicted positives. It means, “are your bets accurate enough for positive prediction”
-<!--SR:!2022-07-05,3,165-->
+<!--SR:!2022-08-05,17,165-->
 
 **Describe the formula for Precision?** || $Precision = \frac{TP}{TP+FP}$
-<!--SR:!2022-07-06,4,165-->
+<!--SR:!2022-08-04,16,165-->
 
 
 ## References

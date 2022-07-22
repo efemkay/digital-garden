@@ -1,3 +1,6 @@
+---
+title: PARA helps organising based on actionability
+---
 - #### PARA is a organisation approach that prioritise file/notes actionability by introducing top level groups as such
 	- PARA stands for Project, Areas of Life, Resources and Archives, and the order also reflect level of actionability
 		- Project → Areas → Resources → Archives

@@ -1,3 +1,6 @@
+---
+title: Geometric Brownian Motion
+---
 - #### Metadata
 	- topic:: [[00 Statistics]]
 	- updated:: [[2022-06-05]]

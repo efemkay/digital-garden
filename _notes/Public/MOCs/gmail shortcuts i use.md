@@ -1,3 +1,6 @@
+---
+title: gmail shortcuts i use
+---
 - with the focus on the main inbox page, i use the following shortcuts
 
 |  shortcut     |  action                         |
