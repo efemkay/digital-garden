@@ -1,3 +1,7 @@
+---
+title: macro for yes no selection based on cons level
+---
+
 - ### Use Case
 	- when running economic model, sometimes I would need to run analysis of a group of projects incremental to another group of projects (normally existing/producing)
 	- this macro allow for semi automated selection of projects based on table of projects similar to table below

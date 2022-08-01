@@ -1,3 +1,7 @@
+---
+title: 01 Dividend Growth Investing
+---
+
 - #### Metadata
 	- topic:: [[00 Investing]]
 	- updated:: 

@@ -20,4 +20,5 @@ share: true
 	- related:: [[css snippets]]
 - updated:: [[2022-07-02]]
 - reviewed:: [[2022-07-02]]
-- #FleetingNote 
+- #FleetingNote #toexpand 
+	- Add outliner snippet i just did for blogger

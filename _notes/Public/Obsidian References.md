@@ -6,13 +6,13 @@ title: Obsidian References
 	- topic:: [[00 Obsidian]]
 	- updated:: [[2022-03-20]]
 	- reviewed:: [[2022-03-20]]
-	- #CodeNote #guide 
+	- #Reference 
 
 ## Non Core Markdown Features
 ### [[LATEX]]
 ### Mermaid Guide
-- #### Flowchart
-	```
+- #### [[Mermaid Flowchart Guide]]
+	```prose
 	graph TD;  
 		A-->B;  
 		A-->C;  
@@ -20,7 +20,7 @@ title: Obsidian References
 		C-->D;
 	```
 - #### Gantt Chart
-	```
+	```prose
 	gantt  
 	dateFormat YYYY-MM-DD  
 	title Adding GANTT diagram to mermaid  

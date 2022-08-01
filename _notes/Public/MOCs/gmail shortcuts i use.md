@@ -14,4 +14,4 @@ title: gmail shortcuts i use
 - topic:: [[00 Learning & Tools]]
 - updated:: [[2022-07-09]]
 - reviewed:: [[2022-07-09]]
-- #Reference/App 
+- #Reference 
