@@ -31,7 +31,10 @@ title: add mathjax to github pages and jekyll
 		```liquid
 		{% include mathjax.html %}
 		```
-		- the original blog had a typo that written wrongly as `{% include mathjax.html >}}` 
+		- the original blog had a typo that written wrongly as
+			```
+			{% include mathjax.html >}}
+			``` 
 	- Now you can write in-line math equations in your markdown file like:
 		```latex
 		\\(f(x) = x^2\\)
