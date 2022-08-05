@@ -31,7 +31,7 @@ title: add mathjax to github pages and jekyll
 		```liquid
 		{% raw %}
 		{% include mathjax.html %}
-		{% end raw %}
+		{% endraw %}
 		```
 		- the original blog had a typo that written wrongly as  `{% raw %} {% include mathjax.html >}} {% endraw %}`, which is missing the proper closing tag (likely because trying to avoid jekyll processing)
 	- Now you can write in-line math equations in your markdown file like:
