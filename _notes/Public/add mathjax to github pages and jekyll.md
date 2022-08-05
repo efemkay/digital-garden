@@ -27,11 +27,13 @@ title: add mathjax to github pages and jekyll
 		  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
 		</script>
 		```
-	- For Jekyll, add this line in your `_includes/head.html` before `</head>`:
+	- For Jekyll, add this line in your `_includes/head.html` before `</head>`. `In this example i encapsulate it in raw tag to avoid jekyll processing`
 		```liquid
+		{% raw %}
 		{% include mathjax.html %}
+		{% end raw %}
 		```
-		- the original blog had a typo that written wrongly as  `{% include mathjax.html >}}`, which is missing the proper closing tag  `%}`
+		- the original blog had a typo that written wrongly as  `{% raw %} {% include mathjax.html >}} {% endraw %}`, which is missing the proper closing tag (likely because trying to avoid jekyll processing)
 	- Now you can write in-line math equations in your markdown file like:
 		```latex
 		\\(f(x) = x^2\\)
@@ -49,9 +51,11 @@ title: add mathjax to github pages and jekyll
 - [Add MathJax v3 Support to Jekyll and Hugo (bodunhu.com)](https://www.bodunhu.com/blog/posts/add-mathjax-v3-support-to-jekyll-and-hugo/)
 - [MathJax in Jekyll – Arthur O'Dwyer – Stuff mostly about C++ (quuxplusone.github.io)](https://quuxplusone.github.io/blog/2018/08/05/mathjax-in-jekyll/)
 	- [MathJax v3 in Jekyll – Arthur O'Dwyer – Stuff mostly about C++ (quuxplusone.github.io)](https://quuxplusone.github.io/blog/2020/08/19/mathjax-v3-in-jekyll/)
+- [Template – Liquid template language (shopify.github.io)](https://shopify.github.io/liquid/tags/template/)
+
 ## Metadata
 - topic:: [[00 Coding]]
 	- related:: [[mathjax in github]]
 - updated:: [[2022-07-15]]
 - reviewed:: [[2022-07-15]]
-- #FleetingNote 
+- #Reference 
