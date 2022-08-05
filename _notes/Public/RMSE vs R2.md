@@ -4,7 +4,7 @@ title: RMSE vs R2
 ---
 
 - #### RMSE tells us how far apart the predicted values are from the observed values in a dataset, on average. The lower the RMSE, the better a model fits a dataset.
-	- The **RMSE** value tells us that the average deviation between the predicted house price made by the model and the actual house price is $14,342.
+	- The **RMSE** value tells us that the average deviation between the predicted house price made by the model and the actual house price is \$14,342.
 	- It is calculated as: $RMSE=\frac{1}{n}\sum(\hat{y}_{i}–y_{i})^{2}$
 - #### R2 tells us the proportion of the variance in the response variable of a regression model that can be explained by the predictor variables. This value ranges from 0 to 1.
 	- The higher the R2 value, the better a model fits a dataset.

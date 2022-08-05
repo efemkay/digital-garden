@@ -18,6 +18,14 @@ dg-publish: true
 		- this is **unexplained deviation** from the mean
 	- $SST=SSR+SSE=\sum(y_{i}-\bar{y})^{2}$
 
+> [!info]- additional info - What does R2 quantify
+> - The value R2 quantifies goodness of fit. It compares the fit of your model to the fit of a horizontal line through the mean of all Y values.
+> - You can think of R2 as the fraction of the total variance of Y that is explained by the model (equation). With experimental data (and a sensible model) you will always obtain results between 0.0 and 1.0.
+> - Another way to think about R2 is the square of the correlation coefficient between the actual and predicted Y values.
+> - [GraphPad Prism 8 Curve Fitting Guide - R squared](https://www.graphpad.com/guides/prism/8/curve-fitting/reg_intepretingnonlinr2.htm)
+
+- R is Pearson Correlation Coefficient
+
 ## References
 - [What is Regression? | SSE, SSR, SST | R-squared | Errors (ε vs. e) - YouTube](https://www.youtube.com/watch?v=aq8VU5KLmkY)
 
