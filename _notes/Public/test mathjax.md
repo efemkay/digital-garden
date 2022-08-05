@@ -1,0 +1,8 @@
+- It is calculated as $RMSE=\frac{1}{n}\sum(\hat{y}_{i}–y_{i})^{2}$
+- #### Formula References
+	- $R^2= SSR/SST$
+	- $SSR = \sum (\hat{y}_{i}-\bar{y})^{2}$
+		- this expected (or explained) deviation from the mean, explaining part of the deviation
+	- $SSE = \sum (y_{i}-\hat{y}_{i})^{2}$
+		- this is **unexplained deviation** from the mean
+	- $SST=SSR+SSE=\sum(y_{i}-\bar{y})^{2}$
