@@ -181,6 +181,9 @@
             {%- endif -%}
         </div>
     </section>
+    {%- if page.title == "404" -%}
+        {%- include SearchOnly.html -%}
+    {%- endif -%}
     {%- include Footer.html -%}
 </main>
 </body>
