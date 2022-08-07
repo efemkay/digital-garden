@@ -20,10 +20,15 @@
 /* give background color to image, in case it has transparency */
     .note-page-section img { background-color: lightgray; }
 
-/* adjustment to h4 line-height */
-	body {
-		--text-leading-wide: 1.3;
-	}
+/* === Headings Adjustment === */
+
+    /* adjustment to h2 */
+    .content h2 { padding-bottom: 0; margin-bottom: 0.5rem; border-bottom: 1px solid; }
+
+    /* adjustment to h4 line-height and padding */
+    body { --text-leading-wide: 1.3; }
+    li h4 { padding-bottom: 0.2rem; }
+    html[data-theme="dark"] .content h4 { color: cornsilk}
 
 /* pre and scrollbar for my digital garden */
 
