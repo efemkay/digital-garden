@@ -30,7 +30,7 @@
     li h3, li h4 { padding-block: 0.4em 0.2em; }
     .content h4 { color: var(--color-text-h4)}
 
-    html, html[data-theme="light"] { --color-text-h4: #282832;  }
+    html[data-theme="light"] { --color-text-h4: #282832;  }
     html[data-theme="dark"] { --color-text-h4: cornsilk; }
 
 /* pre and scrollbar for my digital garden */
