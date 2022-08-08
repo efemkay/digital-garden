@@ -1,6 +1,7 @@
 ---
 title: Confusion Matrix
 alias: true positive false positive
+feedformat: card
 ---
 
 - #### Confusion Matrix is the visual representation of the Actual vs Predicted values.
@@ -47,4 +48,4 @@ alias: true positive false positive
 - topic:: [[00 Statistics]]
 - updated:: [[2022-08-03]]
 - reviewed:: [[2022-08-03]]
-- #LiteratureNote 
+- #LiteratureNote
