@@ -6,14 +6,14 @@
 
 /* custom css for indentation guides for bullets */
 	.content.content ul { list-style: outside; position: relative; padding-left: 1.2em; }
-    .content.content ul ul { margin-bottom: -0.5rem; }
-	.content li { padding-bottom: 0.4rem }
+    .content.content ul ul { margin-block: 0.3rem 0.1rem; }
+	.content li { padding-bottom: 0.3rem }
 
 	ul ul::before {
 		content: "";
 		position: absolute; margin-left: -0.85em; margin-top: 0;
 		border-left: 1px solid gray;
-		top: 0; bottom: 0.8em; left: 0;
+		top: 0; bottom: 0.5em; left: 0;
 	}
 
 
@@ -27,7 +27,7 @@
 
     /* adjustment to h4 line-height and padding */
     body { --text-leading-wide: 1.3; }
-    li h3, li h4 { padding-block: 0.4em 0.2em; }
+    li h3, li h4 { padding-block: 0.3em 0.2em; }
     .content h4 { color: var(--color-text-h4)}
 
     @media (prefers-color-scheme: dark) {
