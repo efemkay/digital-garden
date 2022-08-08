@@ -1,7 +1,6 @@
 ---
 title: Confusion Matrix
 alias: true positive false positive
-feedformat: card
 ---
 
 - #### Confusion Matrix is the visual representation of the Actual vs Predicted values.
