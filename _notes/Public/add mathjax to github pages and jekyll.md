@@ -41,7 +41,7 @@ title: add mathjax to github pages and jekyll
 		```latex
 		$f(x) = x^2$
 		```
-		- The above text will be render to: $f(x)=x2$
+		- The above text will be render to: $f(x)=x^2$
 
 > [!info]- Additional Info on Mathjax v2 and v3
 > - If you are already using Mathjax v2 and wish to just convert it to v3, you may also try this configuration [converter](https://mathjax.github.io/MathJax-demos-web/convert-configuration/convert-configuration.html). There is a much more detailed [guide](https://docs.mathjax.org/en/latest/upgrading/v2.html) but it may contain information unnecessary to average Hugo or Jekyll users.html) how to migrate from mathjax v2 to v3.

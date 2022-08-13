@@ -43,9 +43,9 @@
                 {%- assign internal_link = itemparts[0] -%}
                 {%- assign external_link = itemparts[0] | split:external_link_delimiter -%}
                 {%- assign sidenote = itemparts[0] | split:sidenote_delimiter -%}
-            
+
                 {%- if external_link[1] == nil -%}
-                    {%- assign result_posts = site.posts | where: 'title',itemparts[0] -%}  
+                    {%- assign result_posts = site.posts | where: 'title',itemparts[0] -%}
                     {%- assign result_posts = site.notes | where: 'title',itemparts[0] -%}
                     {%- assign result_pages = site.pages | where: 'title',itemparts[0] -%}
                     {%- assign internal_links = internal_links | append: link_joiner_delimiter | append: internal_link -%}
@@ -56,33 +56,36 @@
                 {%- endif -%}
             {%- endif -%}
         {%- endfor -%}
-    
+
         {%- assign internal_url_array = internal_urls | split:link_joiner_delimiter -%}
         {%- assign internal_link_array = internal_links | split:link_joiner_delimiter -%}
 
         {%- assign external_url_array = external_urls | split:link_joiner_delimiter -%}
         {%- assign external_link_array = external_links | split:link_joiner_delimiter -%}
 
-    
+
         {%- assign replaced_content = content -%}
         {%- for title in internal_link_array -%}
             {%- assign url = internal_url_array[forloop.index0] -%}
+
+            <!-- define and show (if applicable) title and excerpt for pagepreview -->
             {%- if url == nil -%}
                 {%- assign link_text = '<span class="tooltip"><a class="stale-link" href="' | append: 'javascript:void(0)' | append: '">' | append: title | append: '</a> <span class="right bottom"> <span class="tooltip-title">' | append: {{site.privatelinks.title}} | append: '</span><br/><span class="tooltip-excerpt">' | append: {{site.privatelinks.msg}} | append : ' <br/></span> </span></span>' -%}
             {%- elsif url == empty -%}
                 {%- assign link_text = '<span class="tooltip"><a class="stale-link" href="' | append: 'javascript:void(0)' | append: '">' | append: title | append: '</a> <span class="right bottom"> <span class="tooltip-title">' | append: {{site.privatelinks.title}} | append: '</span><br/><span class="tooltip-excerpt">' | append: {{site.privatelinks.msg}} | append : ' <br/></span> </span></span>' -%}
             {%- else -%}
-                    {%- assign post = site.notes | where: 'title',title -%}
-                    {%- if post[0].title == nil -%}
+                {%- assign post = site.notes | where: 'title',title -%}
+                {%- if post[0].title == nil -%}
                     {%- assign post = site.posts | where: 'title',title -%}
-                    {%- endif -%}
-                    {%- assign excerpt = post[0].content | markdownify | strip_html | truncate: 200 | newline_to_br -%}
-                    {%- if site.preferences.pagepreview.enabled -%}
-                        {%- assign link_text = '<span class="tooltip"><a href="' |append: {{site.baseurl}} | append: url | append: '">' | append: title | append: '</a><span class="right bottom"><span class="tooltip-title">' | append: title | append: '</span><br/><span class="tooltip-excerpt">' | append: excerpt | remove: "[[" | remove: "]]" | append: '</span><i></i></span></span>' -%}
-                    {%- else -%}
-                        {%- assign link_text = '<span><a href="' | append: url | append: '">' | append: title | append: '</a></span>' -%}
-                    {%- endif -%}
+                {%- endif -%}
+                {%- assign excerpt = post[0].content | markdownify | strip_html | truncate: 200 | newline_to_br -%}
+                {%- if site.preferences.pagepreview.enabled -%}
+                    {%- assign link_text = '<span class="tooltip"><a href="' | append: {{site.baseurl}} | append: url | append: '">' | append: title | append: '</a><span class="right bottom"><span class="tooltip-title">' | append: title | append: '</span><br/><span class="tooltip-excerpt">' | append: excerpt | remove: "[[" | remove: "]]" | append: '</span><i></i></span></span>' -%}
+                {%- else -%}
+                    {%- assign link_text = '<span><a href="' | append: url | append: '">' | append: title | append: '</a></span>' -%}
+                {%- endif -%}
             {%- endif -%}
+
             {%- assign bracket_link = '[[' | append: title | append: ']]' -%}
             {%- assign replaced_content = replaced_content | replace: bracket_link,link_text -%}
         {%- endfor -%}

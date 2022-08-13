@@ -39,6 +39,6 @@ title: Obsidian References
 - [[dataview syntax]]
 - [[dataview queries]]
 ### Query
-- [[obsidian query]]
+- [[obsidian query control plugin refine how the output looks like]]
 ## References
 - [mermaid - Markdownish syntax for generating flowcharts, sequence diagrams, class diagrams, gantt charts and git graphs. (mermaid-js.github.io)](https://mermaid-js.github.io/mermaid/#/)

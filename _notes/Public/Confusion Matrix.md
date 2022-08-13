@@ -19,7 +19,7 @@ alias: true positive false positive
 		- how many correct (true) positive predictions out of all true positives
 		- How many who tested positive and **do** have Covid, divide by number of people who actually **do** have Covid
 		- $$ Recall = \frac{TP}{TP+FN} = \frac{TP}{ActualPos} $$
-	- **Specificity** – *a subset of accuracy focusing on TN only*
+	- **Specificity** – *a subset of accuracy focusing on TN only* ^4def3e
 		- how many who tested as negative and **do not** have Covid, divide by number of people who actually **do not** have Covid
 		- $$ Specificity = \frac{TN}{TN + FP} = \frac{TN}{ActualNeg}$$
 	- **Precision** – how many correct (true) positive predictions out of all predicted positives
@@ -47,4 +47,4 @@ alias: true positive false positive
 - topic:: [[00 Statistics]]
 - updated:: [[2022-08-03]]
 - reviewed:: [[2022-08-03]]
-- #LiteratureNote
+- #LiteratureNote 
