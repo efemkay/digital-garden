@@ -1,6 +1,7 @@
 ---
 title: 00 Investing
 feed: show
+date: 04-01-2022
 ---
 
 #MOC / `for investment with focus on Malaysia and dividend growth investing`

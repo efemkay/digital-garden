@@ -1,5 +1,6 @@
 ---
-title: McKelvey Box
+title: McKelvey Box helps to visualise mineral resources uncertainty
+dg-publish: true
 ---
 
 - #### McKelvey’s Box is a simple device/diagram for visualizing categories of oil and mineral reserves and resources that shows level of uncertainty and risk
@@ -15,3 +16,9 @@ title: McKelvey Box
 ## References
 - [McKelvey's reserves and resources — Agile (agilescientific.com)](https://agilescientific.com/blog/2011/10/18/mckelveys-reserves-and-resources.html)
 - [McKelvey box - SubSurfWiki](https://subsurfwiki.org/wiki/McKelvey_box)
+
+## Metadata
+- topic:: [[00 Petroleum Engineering]]
+- updated:: [[2022-06-22]]
+- reviewed:: [[2022-06-22]]
+- #LiteratureNote 

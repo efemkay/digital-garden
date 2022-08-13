@@ -4,6 +4,6 @@
 
 layout: Post
 permalink: /
-title: Jekyll Garden
+title: Home
 feedformat: card
 ---

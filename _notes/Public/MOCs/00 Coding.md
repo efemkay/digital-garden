@@ -1,6 +1,7 @@
 ---
 title: 00 Coding
 feed: show
+date: 07-01-2022
 share: true
 ---
 

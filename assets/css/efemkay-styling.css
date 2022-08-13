@@ -49,3 +49,9 @@
     pre::-webkit-scrollbar-thumb {
     	background-color: #262626; border-radius: 8px; border: 1px solid #444;
     }
+
+/* adjust spacing padding for .section when in mobile */
+    @media screen and (max-width: 768px) {
+        section.section { padding-top: 0.5rem; }
+    }
+    header .block #search-input { margin-bottom: 0.4rem; }

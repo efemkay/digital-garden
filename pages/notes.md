@@ -2,7 +2,7 @@
 layout: Post
 permalink: /notes
 feedformat: card
-title: Digital Garden
+title: Notes Feed
 ---
 
-The feed page shows all notes from `notes` folder. If you want to hide any notes from this feed, add `feed:hide` on note's Frontmatter. Eg:[[Hidden Note]]
+This feed page shows MOC notes for my digital garden. The more treasured areas/topics (with more tended insights) are at the top, but if you want to be more freestyle, simply use the search ;)

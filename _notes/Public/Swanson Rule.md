@@ -1,12 +1,12 @@
 ---
-title: Swanson's Rule
+title: swanson rule
 ---
 
 - #### Metadata
-	- topic:: [[00 Economics]]
+	- topic:: [[00 Engineering Economics]]
 	- updated:: [[2022-05-23]]
 	- reviewed:: [[2022-05-23]]
-	- #Concept
+	- #Concept 
 
 ## Overview
 - #### **Swanson’s rule of thumb** says that the mean of a **moderately skewed** probability distribution can be approximated by the weighted average of the 10th, 50th, and 90th percentile, with weights 0.3, 0.4, and 0.3 respectively.
