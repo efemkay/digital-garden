@@ -5,4 +5,4 @@ date: 07-01-2022
 share: true
 ---
 
-#MOC / `for programming language, coding guide and libraries`
+#MOC / `for programming language, coding guide and libraries focusing on data analytics and html/css`

@@ -1,3 +1,7 @@
+---
+title: Prefer Note Titles with Complete Phrase
+---
+
 - #### Metadata
 	- topic:: [[00 Productivity]]
 	- updated:: [[2022-06-20]]

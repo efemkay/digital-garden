@@ -1,0 +1,74 @@
+---
+title: options for publishing digital garden
+---
+
+- ### Jekyll (purely) Based
+	- #### Jekyll Garden by Jekyll-Garden
+		- [Jekyll-Garden/jekyll-garden.github.io](https://github.com/Jekyll-Garden/jekyll-garden.github.io)
+			- sample site: [Jekyll Garden - Jekyll Garden (jekyll-garden.github.io)](https://jekyll-garden.github.io/)
+		- **Search** | **DarkMode** | **Backlinks** | ~~Tags~~ | ~~Graph~~
+		- ##### Personal Notes
+			- I prefer this as I’m more comfortable with Jekyll and few standalone javascripts – my personal website is also using a Jekyll theme.
+			- But what’s also good is that it is a self-contain digital garden platform using purely Jekyll, depending heavily on Liquid templating – so the source and deployment are simply using github.io
+			- I have confidence that I can do tags page similar to how most Jekyll blogging themes – just need to figure out how to move the hashtag in notes into YAML for the use in tags page.
+- ### Jekyll with Netlify
+	- #### Obsidian Digital Garden by oleeskild
+		- [oleeskild/obsidian-digital-garden (github.com)](https://github.com/oleeskild/Obsidian-Digital-Garden)
+			- [oleeskild/digitalgarden (github.com)](https://github.com/oleeskild/digitalgarden)
+			- sample site: [Set up your own digital garden (ole.dev)](https://notes.ole.dev/set-up-your-digital-garden/)
+		- ~~Search~~ | **DarkMode** | ~~Backlinks~~ | ~~Tags~~ | ~~Graph~~
+		- ##### Personal Notes
+			- It requires Obsidian community plugin to deploy to Netlify as it make certain changes to YAML before pushing it to your github repo hosting the source files
+				- definitely can manually add that, but since this template lack quite a number of key features to me, not worth it to pursue – i’ll just keep in view in case things changes
+	- #### Digital Garden Jekyll by maximevaillancourt 
+		- [maximevaillancourt/digital-garden-jekyll-template](https://github.com/maximevaillancourt/digital-garden-jekyll-template)
+			- sample site: [My digital garden (digital-garden-jekyll-template.netlify.app)](https://digital-garden-jekyll-template.netlify.app/)
+		- ~~Search~~ | ~~DarkMode~~ | **Backlinks** | ~~Tags~~ | **Graph**
+		- ##### Personal Notes
+			- require Jekyll and Netlify (to deploy)
+	- #### Simply Jekyll by raghudotcc
+		- [raghudotcc/simply-jekyll](https://github.com/raghudotcc/simply-jekyll)
+			- sample site: [Simply Jekyll (simply-jekyll.netlify.app)](https://simply-jekyll.netlify.app/)
+		- **Search** | ~~DarkMode~~ | **Backlinks** | **Tags** | ~~Graph~~
+		- ##### Personal Notes
+			- require Jekyll and Netlify
+			- source for Jekyll Garden above (all the hard work of converting wiki-links are done by this theme)
+- ### Hugo Based
+	- #### Quartz by jackyzha0
+		- [jackyzha0/quartz](https://github.com/jackyzha0/quartz)
+			- sample site: [Quartz 3.2 (jzhao.xyz)](https://quartz.jzhao.xyz/)
+		- **Search** | **DarkMode** | **Backlinks** | ~~Tags~~ | **Graph**
+		- ##### Personal Notes
+			- It requires Hugo and uses Github Action to call hugo scripts to convert markdown to html (repo on the links below)
+				- [jackyzha0/hugo-obsidian: simple GitHub action to parse Markdown Links into a .json file for Hugo](https://github.com/jackyzha0/hugo-obsidian) – but the repo already has it all set up
+				- alternatively, Netlify offer Hugo converters as part of the deployment options
+			- This setup seems almost perfect to me except that how it is configured will require relative path as part of the wiki-links. Not ideal for me as I’m using “shortest path” option in Obsidian
+				- I’ve never done Hugo scripting before, so at the moment will depend on feature request to the dev
+			- additional note
+				- [Publishing your Obsidian Vault Online with Quartz (brandonkboswell.com)](https://brandonkboswell.com/blog/Publishing-your-Obsidian-Vault-Online-with-Quartz/)
+- ### Gatsby Based
+	- #### Gatsby Garden by binnyva
+		- [binnyva/gatsby-garden](https://github.com/binnyva/gatsby-garden)
+			- example site – [Digital Zen Garden : Home (binnyva.com)](https://notes.binnyva.com/)
+		- **Search** | **DarkMode** | **Backlinks** | **Tags** | **Graph**
+		- ##### Personal Notes
+			- I really really love this implementation of digital garden as it has all the key features I cherish and implemented them quite well
+				- it has search prominent at the nav bar (but somehow totally hidden in mobile view – possibly can change that with css)
+				- page preview that actually loads entire page (not just like first 150 chars) and a full html page with links clickable in the preview itself
+				- it has local graph that works okay on mobile
+			- But I won’t be using this anytime soon because of some (not many) quirkiness of gatsbyjs and the need to deploy using Netlify
+				- I’m now very comfortable with Jekyll and Github.io that I don’t feel like investing more time learning new language/templating just to for hosting my notes – I would rather spend that time learning Python for my big data analysis 
+## References
+- [How to set up your own digital garden - Ness Labs](https://nesslabs.com/digital-garden-set-up)
+	- article on options to publish your digital garden – mentioned most of the platforms above
+- [What are digital gardens? – Chuck Grimmett (cagrimmett.com)](https://cagrimmett.com/notes/2020/11/08/what-are-digital-gardens/)
+- [jeffreytse/jekyll-spaceship: 🚀 A Jekyll plugin to provide powerful supports for table, mathjax, plantuml, mermaid, emoji, video, audio, youtube, vimeo, dailymotion, soundcloud, spotify, etc. (github.com)](https://github.com/jeffreytse/jekyll-spaceship)
+- [Digital gardens let you cultivate your own little bit of the internet | MIT Technology Review](https://www.technologyreview.com/2020/09/03/1007716/digital-gardens-let-you-cultivate-your-own-little-bit-of-the-internet/)
+- [What are digital gardens? – Chuck Grimmett (cagrimmett.com)](https://cagrimmett.com/notes/2020/11/08/what-are-digital-gardens/)
+
+## Metadata
+- topic:: [[00 Productivity]]
+	- related:: [[00 Obsidian]], [[01 Digital Garden]]
+- updated:: [[2022-08-20]]
+- reviewed:: [[2022-08-20]]
+- #Reference 

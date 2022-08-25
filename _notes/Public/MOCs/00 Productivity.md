@@ -4,4 +4,4 @@ feed: show
 date: 05-01-2022
 ---
 
-#MOC / Hub for notes related to productivity and self improvement
+#MOC / `for notes related to productivity and self improvement`

@@ -1,3 +1,7 @@
+---
+title: differences between correlation and regression
+---
+
 **Key similarities** 
 
 -   Both quantify the direction and strength of the relationship between two numeric variables.
