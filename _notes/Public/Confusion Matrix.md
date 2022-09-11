@@ -18,24 +18,26 @@ alias: true positive false positive
 	- **Sensitivity (Recall)** – *a subset of accuracy focusing on TP only*
 		- how many correct (true) positive predictions out of all true positives
 		- How many who tested positive and **do** have Covid, divide by number of people who actually **do** have Covid
-		- $$ Recall = \frac{TP}{TP+FN} = \frac{TP}{ActualPos} $$
+		- $$ Recall = \frac{TP}{TP+FN} = \frac{TP}{ActualPos} $$ ^7bb12a
 	- **Specificity** – *a subset of accuracy focusing on TN only* ^4def3e
 		- how many who tested as negative and **do not** have Covid, divide by number of people who actually **do not** have Covid
-		- $$ Specificity = \frac{TN}{TN + FP} = \frac{TN}{ActualNeg}$$
+		- $$ Specificity = \frac{TN}{TN + FP} = \frac{TN}{ActualNeg}$$ ^547e31
 	- **Precision** – how many correct (true) positive predictions out of all predicted positives
 		- e.g. If we place a bet, how accurate is that bet. a subset of accuracy but for one category only (in the case of binary classification)
 		- $$ Precision = \frac{TP}{TP+FP} = \frac{TP}{PredPos} $$
 
 ## Review #flashcards/statistics
 **What does Sensitivity in Confusion Matrix represents?** || It measures how many correct positives or true positive predictions out of all true positives. It means, “are you able to pickup all the positives?”
-<!--SR:!2022-08-26,23,150-->
+<!--SR:!2022-10-01,23,150-->
+
 **Describe the formula for Sensitivity?** || $Recall = \frac{TP}{TP+FN}$
-<!--SR:!2022-08-21,18,130-->
+<!--SR:!2022-09-28,21,150-->
+
 **What does Precision in Confusion Matrix represents?** || It measures how many correct positives or true positive out of all predicted positives. It means, “are your bets accurate enough for positive prediction”
-<!--SR:!2022-08-05,17,165-->
+<!--SR:!2022-09-23,16,145-->
 
 **Describe the formula for Precision?** || $Precision = \frac{TP}{TP+FP}$
-<!--SR:!2022-08-04,16,165-->
+<!--SR:!2022-09-22,15,145-->
 
 
 ## References

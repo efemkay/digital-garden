@@ -23,6 +23,7 @@
 - [Simple Linear Regression | An Easy Introduction & Examples (scribbr.com)](https://www.scribbr.com/statistics/simple-linear-regression/#assumptions)
 - [Linear Regression in R | An Easy Step-by-Step Guide (scribbr.com)](https://www.scribbr.com/statistics/linear-regression-in-r/)
 	- step by step how to run lm using R
+- [How to Plot a Linear Regression Line in ggplot2 (With Examples) (statology.org)](https://www.statology.org/ggplot2-linear-regression/)
 
 ## Metadata
 - topic:: [[00 Statistics]]

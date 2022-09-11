@@ -28,6 +28,7 @@ title: Github Pages themes I use
 
 ## Metadata
 - topic:: [[00 Content Creation]]
+	- related:: [[01 GitHub]]
 - updated:: [[2022-08-12]]
 - reviewed:: [[2022-08-12]]
 - #Reference 
