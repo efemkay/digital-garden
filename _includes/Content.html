@@ -159,7 +159,6 @@
             {%- assign replaced_content = replaced_content | replace: ' ==', '&nbsp;<mark>' -%}
             {%- assign replaced_content = replaced_content | replace: '== ', '</mark>&nbsp;' -%}
             {%- assign replaced_content = replaced_content | replace: '==.', '</mark>.' -%}
-            {%- assign replaced_content = replaced_content | replace: '==', '<mark>' -%}
         {%- endfor -%}
 
         {{ replaced_content }}
