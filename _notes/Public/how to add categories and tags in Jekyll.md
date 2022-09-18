@@ -21,6 +21,7 @@ title: how to add categories and tags in Jekyll
 
 ## Metadata
 - topic:: [[00 Coding]]
+	- related:: [[01 Jekyll]]
 - updated:: [[2022-08-28]]
 - reviewed:: [[2022-08-28]]
 - #Reference 

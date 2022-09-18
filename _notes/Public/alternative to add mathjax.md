@@ -4,9 +4,10 @@ title: alternative to add mathjax
 
 - Here’s an alternative to loading mathjax for showing mathematical equations. Pulled from TeXt theme github repo **but I haven’t test it**
 	```html
+	{% raw %}
 	<script type="text/x-mathjax-config">
 		var _config = { tex2jax: {
-			inlineMath: [['$','$'], ['\\(','\\)']]
+			inlineMath: [ ['$','$'], ['\\(','\\)'] ]
 		}};
 		
 		{%- if _mathjax_autoNumber == true -%}
@@ -16,6 +17,7 @@ title: alternative to add mathjax
 		MathJax.Hub.Config(_config);
 	</script>
 	<script type="text/javascript" src="{{ _sources.mathjax }}" async></script>
+	{% endraw %}
 	```
 
 ## References
