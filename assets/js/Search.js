@@ -1,3 +1,6 @@
+---
+---
+
 /********************************************************************************************
  *
  * MIT License
@@ -72,7 +75,7 @@
     }
 
     function searchInit() {
-        var dataUrl = "SearchData.json";
+        var dataUrl = "{{ site.baseurl }}/SearchData.json";
 
         getSearchData(dataUrl)
             .then(function(responseText) {
