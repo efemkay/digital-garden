@@ -72,7 +72,7 @@
     }
 
     function searchInit() {
-        var dataUrl = "https://efemkay.github.io/digital-garden/SearchData.json";
+        var dataUrl = "/SearchData.json";
 
         getSearchData(dataUrl)
             .then(function(responseText) {
