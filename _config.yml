@@ -18,12 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-# URL is the base hostname with protocol for your site, eg http://example.com
-url: "https://efemkay.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-
-# If you want to install this jekyll in a subpath (eg /digitalgarden) set it here.
-# Else keep it Empty (DON'T PUT /; Keep it empty)
-baseurl: "/digital-garden"
+# Site Settings & URL is the base hostname with protocol for your site, eg http://example.com
+url             : "https://efemkay.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl         : "/digital-garden" # If you want to install this jekyll in a subpath (eg /digitalgarden) set it here. Else keep it Empty (DON'T PUT /; Keep it empty)
+description     : "Projects. Notes. Shared."
 
 # Website Header, Description, Footer year and text.
 # If you are deleting this, make sure you remove it from HTML files too

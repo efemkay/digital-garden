@@ -1,0 +1,29 @@
+---
+---
+
+<!------------------------------------------------------------------------------
+ Author: Faiz Khuzaimah (aka Efemkay)
+ MIT License
+
+ This is default layout that encapsulates all other layouts with <html> tag
+------------------------------------------------------------------------------->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- include the html <head> section. Header layout is loaded by other layouts -->
+        {% include Head.html %}
+    </head>
+
+    <body>
+        <main>
+            {%- include Nav.html -%}
+            <section class="section">
+                <div class="columns is-centered">
+                    {{ content }} <!-- content of other layouts -->
+                </div>
+            </section>
+            {%- include Footer.html -%}
+        </main>
+    </body>
+</html>
