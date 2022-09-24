@@ -72,7 +72,7 @@
     }
 
     function searchInit() {
-        var dataUrl = "{{ site.baseurl }}/SearchData.json";
+        var dataUrl = "SearchData.json";
 
         getSearchData(dataUrl)
             .then(function(responseText) {
