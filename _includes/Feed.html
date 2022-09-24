@@ -35,9 +35,9 @@
 {%- if page.feedformat == "card" -%}
     <!-- feed with filter-->
     <div class="related-wrapper">
-    {% assign note_items = site.notes | sort: "date" | reverse %}
-    {% for note_items in note_items %}
-        {%- if note_items.feed == "show" -%}
+        {% assign note_items = site.notes | sort: "date" | reverse %}
+        {% for note_items in note_items %}
+            {%- if note_items.feed == "show" -%}
                 <div class="notelist-feed">
                     <a href="{{ site.baseurl }}{{note_items.url}}">
                         <h6>{{ note_items.title }}</h6>
@@ -46,8 +46,8 @@
                         </p>
                     </a>
                 </div>
-        {%- endif -%}
-    {%- endfor -%}
+            {%- endif -%}
+        {%- endfor -%}
     </div>
 {%-endif -%}
 
@@ -55,22 +55,18 @@
 <!--Static Page : pages/lists.md-->
 
 {%- if page.feedformat == "row" -%}
-<div class="block">
-    {%- if date -%}
+    <div class="block">
         {% assign note_items = site.notes | sort: "date" | reverse %}
-    {%- else -%}
-        {% assign note_items = site.notes %}
-    {%- endif -%}
-    {% for note_items in note_items %}
-        {%- if note_items.format == "list" -%}
-            <div class="list-feed">
+        {% for note_items in note_items %}
+            {%- if note_items.format == "list" -%}
+                <div class="list-feed">
                     <a href="{{ site.baseurl }}{{note_items.url}}" style="text-decoration: none;display: flex;justify-content: space-between;flex-direction: row;width: 100%;">
                         <div class="writinglist-title">
                             {{note_items.title }}
                         </div>
                     </a>
-            </div>
-        {%-endif -%}
-    {%- endfor -%}
+                </div>
+            {%-endif -%}
+        {%- endfor -%}
     </div>
 {%-endif -%}
