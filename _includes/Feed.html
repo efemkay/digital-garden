@@ -60,7 +60,11 @@
 
 {%- if page.feedformat == "row" -%}
 <div class="block">
-    {% assign note_items = site.notes | sort: "date" | reverse %}
+    {%- if date -%}
+        {% assign note_items = site.notes | sort: "date" | reverse %}
+    {%- else -%}
+        {% assign note_items = site.notes %}
+    {%- endif -%}
     {% for note_items in note_items %}
         {%- if note_items.format == "list" -%}
             <div class="list-feed">
