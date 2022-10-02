@@ -50,6 +50,7 @@
                     {%- assign internal_link = itemparts[0] -%}    <!-- assign internal link when we find open and close wikilink bracket -->
                 {%- else -%}
                     {%- assign internal_link = itemparts[0] -%}
+                    {%- assign internal_alias = internal_alias | append: link_joiner_delimiter | append: itemparts[1] -%}
                 {%- endif -%}
                 {%- assign external_link = itemparts[0] | split:external_link_delimiter -%}
                 {%- assign sidenote = itemparts[0] | split:sidenote_delimiter -%}
@@ -75,8 +76,14 @@
         {%- assign external_url_array = external_urls | split:link_joiner_delimiter -%}
         {%- assign external_link_array = external_links | split:link_joiner_delimiter -%}
 
-
         {%- assign replaced_content = content -%}
+        <!-- loop over internal alias to be removed, replaced with none -->
+        {%- for title in internal_link_array -%}
+            {%- assign bracket_link = '|' | append: title -%}
+            {%- assign replaced_content = replaced_content | replace: bracket_link, '' -%}
+        {%- endfor -%}
+
+        <!-- loop over internal links to replace wikilink into html link -->
         {%- for title in internal_link_array -%}
             {%- assign url = internal_url_array[forloop.index0] -%}
 
@@ -101,6 +108,9 @@
             {%- assign bracket_link = '[[' | append: title | append: ']]' -%}
             {%- assign replaced_content = replaced_content | replace: bracket_link,link_text -%}
         {%- endfor -%}
+
+
+    <!-- FOR SIDE NOTE -->
 
         {%- assign sideNoteCounter = 0 -%}
         {%- assign srsCounter = 0 -%}
