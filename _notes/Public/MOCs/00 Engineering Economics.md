@@ -4,5 +4,4 @@ feed: show
 date: 10-01-2022
 ---
 
-#MOC / `for economics notes with focus on petroleum fiscal and engineering`
-
+#MOC / for economics notes with focus on petroleum fiscal and engineering

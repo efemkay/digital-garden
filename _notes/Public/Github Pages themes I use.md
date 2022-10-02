@@ -17,6 +17,11 @@ title: Github Pages themes I use
 	- [kitian616/jekyll-TeXt-theme: 💎 🐳 A super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc. (github.com)](https://github.com/kitian616/jekyll-TeXt-theme)
 		- This theme is very extensive with “extended” support for markdown by including mathjax, mermaid and chartjs. I use it for reference as applying this theme is quite an undertaking and loading is slow due to loads of js loaded
 			- I have trouble loading the mathjax (dev website) 1 out of 3 times i visited the page
+	- [abhinavs/moonwalk: A fast & minimal Jekyll blog theme with clean dark mode (github.com)](https://github.com/abhinavs/moonwalk)
+		- Minimal yet beautifully designed theme. Has complete structure, reponsive, SEO.
+		- The dark/light theme switcher is elegant and only 31 lines. see [moonwalk/toggle_theme_js.html at master · abhinavs/moonwalk (github.com)](https://github.com/abhinavs/moonwalk/blob/master/_includes/toggle_theme_js.html)
+	- [sighingnow/jekyll-gitbook: Build Jekyll site with GitBook style! (github.com)](https://github.com/sighingnow/jekyll-gitbook)
+		- Awesome theme similar to bookdown. Worth exploring some other time
 
 ## References
 - [Themes | Jekyll • Simple, blog-aware, static sites (jekyllrb.com)](https://jekyllrb.com/docs/themes/)

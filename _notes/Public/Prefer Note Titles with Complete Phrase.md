@@ -26,4 +26,4 @@ title: Prefer Note Titles with Complete Phrase
 > 
 
 ## References
-- https://notes.andymatuschak.org/z3KmNj3oKKSTJfqdfSEBzTQiCVGoC4GfK3rYW
+- [Prefer note titles with complete phrases to sharpen claims (andymatuschak.org)](https://notes.andymatuschak.org/z3KmNj3oKKSTJfqdfSEBzTQiCVGoC4GfK3rYW)

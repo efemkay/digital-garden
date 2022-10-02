@@ -18,7 +18,7 @@ title: About My Notes
 ### The Tools I Use
 - #### My notes on tools and apps are productivity related and mostly a reference note for my future self (or perhaps another person encountering similar problem)
 	- These tools are usually used to support my work (that form the gems above), so they are auxiliary in nature – to help me to get the work done
-	- Occasionally, I ventured further that they become key part of my hobby like learning HTML and CSS (and developing [CSS snippets for Obsidian]([efemkay/obsidian-modular-css-layout: CSS Layout hack for Obsidian.md (github.com)](https://github.com/efemkay/obsidian-modular-css-layout)))
+	- Occasionally, I ventured further that they become key part of my hobby like learning HTML and CSS (and developing [CSS snippets for Obsidian](https://github.com/efemkay/obsidian-modular-css-layout))
 - #### Here are list of tools and apps I use and what kind of notes I take about them
 	- Excel and VBA are my primary apps at work, so there’re some good pointers on how I use VBA/macro to ease my life.
 		- I don’t anything on PowerPoint even though I use it daily as well as Excel because there’s nothing insightful I can offer – almost all I know, you can simply google it.

@@ -18,8 +18,7 @@ title: it is more fair to compare lease vs borrow instead of buy
 - 1st method is compare **lease** against **buy with borrowed fund**. This is because leasing is **a form of financing**. This method is usually known as **lease-equivalent loan**.
     - for this method, (1) find the incremental cash flow of lease-buy, (2) discount the cash flow by company's after-tax cost of debt. If it's negative lease is not attractive.
 - 2nd method is to **de-lever the lease** by converting the lease payment into **equivalent initial capex** as if it is a buy.
-	- for this method, (1) discount the lease payment by company's after-tax cost of debt, (2) deduct the equivalent capex from the net cash flow, and (3) add back the lease payment to the net cash flow.
-<!--SR:!2022-09-20,12,170-->
+	- for this method, (1) discount the lease payment by company's after-tax cost of debt, (2) deduct the equivalent capex from the net cash flow, and (3) add back the lease payment to the net cash flow. <!--SR:!2022-10-29,29,170-->
 
 ## References
 - Corporate Finance, 3rd Edition. By Berk & DeMarzo
