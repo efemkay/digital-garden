@@ -80,8 +80,8 @@
         {%- assign replaced_content = content -%}
         <!-- loop over internal alias to be removed, replaced with none -->
         {%- for title in internal_alias_array -%}
-            {%- assign bracket_link = '|' | append: title -%}
-            {%- assign replaced_content = replaced_content | replace: bracket_link, '' -%}
+            {%- assign alias_link = '|' | append: title -%}
+            {%- assign replaced_content = replaced_content | remove: alias_link -%}
         {%- endfor -%}
 
         <!-- loop over internal links to replace wikilink into html link -->
