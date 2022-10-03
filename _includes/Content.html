@@ -68,6 +68,12 @@
         {%- assign replaced_content = content -%}
         {%- for title in internal_link_array -%}
             {%- assign url = internal_url_array[forloop.index0] -%}
+
+            <!-- split wikilink if there's alias, if so use it for display -->
+            {%- assign wikilinkparts = title | split: '|' -%}
+            {%- assign titleoralias = wikilinkparts[0] -%}
+
+
             {%- if url == nil -%}
                 {%- assign link_text = '<span class="tooltip"><a class="stale-link" href="' | append: 'javascript:void(0)' | append: '">' | append: title | append: '</a> <span class="right bottom"> <span class="tooltip-title">' | append: {{site.privatelinks.title}} | append: '</span><br/><span class="tooltip-excerpt">' | append: {{site.privatelinks.msg}} | append : ' <br/></span> </span></span>' -%}
             {%- elsif url == empty -%}
@@ -79,9 +85,9 @@
                     {%- endif -%}
                     {%- assign excerpt = post[0].content | markdownify | strip_html | truncate: 200 | newline_to_br -%}
                     {%- if site.preferences.pagepreview.enabled -%}
-                        {%- assign link_text = '<span class="tooltip"><a href="' |append: {{site.baseurl}} | append: url | append: '">' | append: title | append: '</a><span class="right bottom"><span class="tooltip-title">' | append: title | append: '</span><br/><span class="tooltip-excerpt">' | append: excerpt | remove: "[[" | remove: "]]" | append: '</span><i></i></span></span>' -%}
+                        {%- assign link_text = '<span class="tooltip"><a href="' |append: {{site.baseurl}} | append: url | append: '">' | append: titleoralias | append: '</a><span class="right bottom"><span class="tooltip-title">' | append: titleoralias | append: '</span><br/><span class="tooltip-excerpt">' | append: excerpt | remove: "[[" | remove: "]]" | append: '</span><i></i></span></span>' -%}
                     {%- else -%}
-                        {%- assign link_text = '<span><a href="' | append: url | append: '">' | append: title | append: '</a></span>' -%}
+                        {%- assign link_text = '<span><a href="' | append: url | append: '">' | append: titleoralias | append: '</a></span>' -%}
                     {%- endif -%}
             {%- endif -%}
             {%- assign bracket_link = '[[' | append: title | append: ']]' -%}
