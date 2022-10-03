@@ -41,14 +41,15 @@
         {%- for item in content_array -%}
             {%- if forloop.index > 1 -%}
                 {%- assign itemparts = item | split:']]' -%}
+                {%- assign linkparts = itemparts[0] | split:'|' -%}
                 {%- assign internal_link = itemparts[0] -%}
                 {%- assign external_link = itemparts[0] | split:external_link_delimiter -%}
                 {%- assign sidenote = itemparts[0] | split:sidenote_delimiter -%}
 
                 {%- if external_link[1] == nil -%}
-                    {%- assign result_posts = site.posts | where: 'title',itemparts[0] -%}
-                    {%- assign result_posts = site.notes | where: 'title',itemparts[0] -%}
-                    {%- assign result_pages = site.pages | where: 'title',itemparts[0] -%}
+                    {%- assign result_posts = site.posts | where: 'title',linkparts[0] -%}
+                    {%- assign result_posts = site.notes | where: 'title',linkparts[0] -%}
+                    {%- assign result_pages = site.pages | where: 'title',linkparts[0] -%}
                     {%- assign internal_links = internal_links | append: link_joiner_delimiter | append: internal_link -%}
                     {%- assign internal_urls = internal_urls | append: link_joiner_delimiter | append: result_posts[0].url | append: result_pages[0].url -%}
                 {%- else -%}
