@@ -85,7 +85,7 @@
                 {%- assign link_text = '<span class="tooltip"><a class="stale-link" href="' | append: 'javascript:void(0)' | append: '">' | append: titleoralias | append: '</a> <span class="right bottom"> <span class="tooltip-title">' | append: {{site.privatelinks.title}} | append: '</span><br/><span class="tooltip-excerpt">' | append: {{site.privatelinks.msg}} | append : ' <br/></span> </span></span>' -%}
             {%- else -%}
                     {%- assign post = site.notes | where: 'title',titleonly -%}
-                    {%- if post[0].titleonly == nil -%}
+                    {%- if post[0].title == nil -%}
                         {%- assign post = site.posts | where: 'title',titleonly -%}
                     {%- endif -%}
                     {%- assign excerpt = post[0].content | markdownify | strip_html | truncate: 200 | newline_to_br -%}
