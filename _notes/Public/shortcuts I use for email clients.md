@@ -18,11 +18,12 @@ alias: shortcut hotkey for gmail and outlook
 ## Gmail
 - with the focus on the main inbox page, i use the following shortcuts
 
-|  shortcut     |  action                         |
-|:--------------|:--------------------------------|
-|  x            |  select/unselect conversation   |
-|  v            |  open "Move to..." menu         |
-| # (shift + 3) | to delete selected conversation |  
+|  shortcut           |     action                            |
+|:-------------------:|:--------------------------------------|
+|   x                 |     select/unselect conversation      |
+|   v                 |   open "Move to: ..." menu            |
+|   l                 |   open "Label as: ..." menu           |
+|   # (shift + 3)     |    to delete selected conversation    |  
 
 
 ## Metadata

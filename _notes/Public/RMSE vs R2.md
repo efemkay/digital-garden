@@ -1,6 +1,7 @@
 ---
-alias: Root Mean Squared Error vs R Squared
 title: RMSE vs R2
+alias: Root Mean Squared Error vs R Squared
+tags: [LiteratureNote]
 ---
 
 - #### RMSE tells us how far apart the predicted values are from the observed values in a dataset, on average. The lower the RMSE, the better a model fits a dataset.

@@ -58,6 +58,7 @@ title: options for publishing digital garden
 				- it has local graph that works okay on mobile
 			- But I won’t be using this anytime soon because of some (not many) quirkiness of gatsbyjs and the need to deploy using Netlify
 				- I’m now very comfortable with Jekyll and Github.io that I don’t feel like investing more time learning new language/templating just to for hosting my notes – I would rather spend that time learning Python for my big data analysis 
+
 ## References
 - [How to set up your own digital garden - Ness Labs](https://nesslabs.com/digital-garden-set-up)
 	- article on options to publish your digital garden – mentioned most of the platforms above

@@ -3,7 +3,7 @@ title: max function in power query
 ---
 - #### Metadata
 	- topic:: [[00 Coding]]
-		- related:: [[Power Query]], [[Power BI]]
+		- related:: [[01 Power Query]], [[Power BI]]
 	- updated:: [[2022-06-21]]
 	- reviewed:: [[2022-06-21]]
 	- #PersonalNote #CodeNote 

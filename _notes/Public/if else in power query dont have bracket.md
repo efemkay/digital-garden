@@ -3,7 +3,7 @@ title: if else in power query dont have bracket
 ---
 - #### Metadata
 	- topic:: [[00 Coding]]
-		- related:: [[Power Query]], [[Power BI]]
+		- related:: [[01 Power Query]], [[Power BI]]
 	- updated:: 
 	- reviewed:: 
 	- #FleetingNote 
