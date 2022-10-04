@@ -96,7 +96,7 @@
                         {%- assign link_text = '<span><a href="' | append: url | append: '">' | append: titleoralias | append: '</a></span>' -%}
                     {%- endif -%}
             {%- endif -%}
-            {%- assign link_text = link_text | remove: "|" -%}
+            {%- assign link_text = link_text | remove: "Hydro" -%}
             {%- assign bracket_link = '[[' | append: title | append: ']]' -%}
             {%- assign replaced_content = replaced_content | replace: bracket_link,link_text -%}
         {%- endfor -%}
