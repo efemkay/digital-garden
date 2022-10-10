@@ -46,7 +46,7 @@ tags: [Reference]
 
 ## Metadata
 - #### Metadata
-	- topic:: [[00 Obsidian]]
+	- topic:: [[01 Obsidian]]
 	- updated:: [[2022-09-30]]
 	- reviewed:: [[2022-09-30]]
 	- #Reference 

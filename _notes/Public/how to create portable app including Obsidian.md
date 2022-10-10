@@ -33,7 +33,7 @@ Here’s how:
 
 ## Metadata
 - topic:: 
-	- related:: [[00 Obsidian]]
+	- related:: [[01 Obsidian]]
 - updated:: [[2022-08-26]]
 - reviewed:: [[2022-08-26]]
 - #FleetingNote 

@@ -23,7 +23,7 @@ title: obsidian query control plugin refine how the output looks like
 		~~~
 
 ## Metadata
-- topic:: [[00 Obsidian]]
+- topic:: [[01 Obsidian]]
 - updated:: [[2022-07-06]]
 - reviewed:: [[2022-07-06]]
 - #Reference 

@@ -22,7 +22,7 @@ title: About My Notes
 - #### Here are list of tools and apps I use and what kind of notes I take about them
 	- Excel and VBA are my primary apps at work, so there’re some good pointers on how I use VBA/macro to ease my life.
 		- I don’t anything on PowerPoint even though I use it daily as well as Excel because there’s nothing insightful I can offer – almost all I know, you can simply google it.
-	- I use [[00 Obsidian]] for my personal knowledge management. Where I capture my insights on the areas/topics laid out in this note.
+	- I use [[01 Obsidian]] for my personal knowledge management. Where I capture my insights on the areas/topics laid out in this note.
 	- I’ve been tinkering with Github (repo and pages) and Jekyll for sharing my code snippets and hosting my website / digital garden,
 		- There are a bit of both, references and insights, on using/adding mathjax (math equation), mermaid diagram, and markdown related to my content creation.
 			- my css snippets – [MLC snippets for Obsidian](https://github.com/efemkay/obsidian-modular-css-layout)

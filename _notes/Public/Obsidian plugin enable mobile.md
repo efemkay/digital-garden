@@ -3,7 +3,7 @@ title: Obsidian plugin enable mobile
 ---
 
 - #### Metadata
-	- topic:: [[00 Obsidian]]
+	- topic:: [[01 Obsidian]]
 	- updated:: [[2022-03-14]]
 	- reviewed:: [[2022-03-14]]
 	- #CodeNote 

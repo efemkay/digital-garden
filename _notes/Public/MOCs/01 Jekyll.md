@@ -1,1 +1,6 @@
+---
+title: 01 Jekyll
+feed: show
+---
+
 #MOC / for notes sub to [[00 Coding]] with focus on how I use Jekyll

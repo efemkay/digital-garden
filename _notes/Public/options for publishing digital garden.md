@@ -69,7 +69,7 @@ title: options for publishing digital garden
 
 ## Metadata
 - topic:: [[00 Productivity]]
-	- related:: [[00 Obsidian]], [[01 Digital Garden]]
+	- related:: [[01 Obsidian]], [[01 Digital Garden]]
 - updated:: [[2022-08-20]]
 - reviewed:: [[2022-08-20]]
 - #Reference 

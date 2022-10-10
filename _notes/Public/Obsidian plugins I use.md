@@ -22,7 +22,7 @@ title: Obsidian plugins I use
 		- to be used together with Graph Analysis plugin
 
 ## Metadata
-- topic:: [[00 Obsidian]], [[Obsidian References]]
+- topic:: [[01 Obsidian]], [[Obsidian References]]
 - updated:: [[2022-07-12]]
 - reviewed:: [[2022-07-12]]
 - #FleetingNote 

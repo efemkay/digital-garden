@@ -3,7 +3,7 @@ title: Obsidian References
 ---
 
 - #### Metadata
-	- topic:: [[00 Obsidian]]
+	- topic:: [[01 Obsidian]]
 	- updated:: [[2022-03-20]]
 	- reviewed:: [[2022-03-20]]
 	- #Reference 
