@@ -71,7 +71,7 @@
             {%- assign url = internal_url_array[forloop.index0] -%}
 
 
-            {%- if name contains ".jpg" or name contains ".jpeg" or name contains ".png" or name contains ".svg" -%}
+            {%- if url contains ".jpg" or url contains ".jpeg" or url contains ".png" or url contains ".svg" -%}
                 {%- assign link_text = '<img src="' | append: {{site.baseurl}} | append: url | append: '">' | remove: "[[" | remove: "]]" -%}
             {%- elsif url == nil -%}
                 {%- assign link_text = '<span class="tooltip"><a class="stale-link" href="' | append: 'javascript:void(0)' | append: '">' | append: title | append: '</a> <span class="right bottom"> <span class="tooltip-title">' | append: {{site.privatelinks.title}} | append: '</span><br/><span class="tooltip-excerpt">' | append: {{site.privatelinks.msg}} | append : ' <br/></span> </span></span>' -%}
