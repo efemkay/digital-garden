@@ -70,35 +70,31 @@
         {%- for title in internal_link_array -%}
             {%- assign url = internal_url_array[forloop.index0] -%}
 
-            <!-- split wikilink if there's alias, if so use it for display -->
-            {%- assign wikilinkparts = title | split: '|' -%}
-            {%- assign titleonly = wikilinkparts[0] -%}
-            {%- if wikilinkparts[1] == nil -%}
-                {%- assign titleoralias = wikilinkparts[0] -%}
-            {%- else -%}
-                {%- assign titleoralias = wikilinkparts[1] -%}
-            {%- endif -%}
 
-
-            {%- if url == nil -%}
-                {%- assign link_text = '<span class="tooltip"><a class="stale-link" href="' | append: 'javascript:void(0)' | append: '">' | append: titleoralias | append: '</a> <span class="right bottom"> <span class="tooltip-title">' | append: {{site.privatelinks.title}} | append: '</span><br/><span class="tooltip-excerpt">' | append: {{site.privatelinks.msg}} | append : ' <br/></span> </span></span>' -%}
+            {% if name contains ".jpg" or name contains ".jpeg" or name contains ".png" or name contains ".svg" %}
+                {%- assign link_text = '<img src="' | append: {{site.baseurl}} | append: url | append: '">' | remove: "[[" | remove: "]]" -%}
+            {%- elseif url == nil -%}
+                {%- assign link_text = '<span class="tooltip"><a class="stale-link" href="' | append: 'javascript:void(0)' | append: '">' | append: title | append: '</a> <span class="right bottom"> <span class="tooltip-title">' | append: {{site.privatelinks.title}} | append: '</span><br/><span class="tooltip-excerpt">' | append: {{site.privatelinks.msg}} | append : ' <br/></span> </span></span>' -%}
             {%- elsif url == empty -%}
-                {%- assign link_text = '<span class="tooltip"><a class="stale-link" href="' | append: 'javascript:void(0)' | append: '">' | append: titleoralias | append: '</a> <span class="right bottom"> <span class="tooltip-title">' | append: {{site.privatelinks.title}} | append: '</span><br/><span class="tooltip-excerpt">' | append: {{site.privatelinks.msg}} | append : ' <br/></span> </span></span>' -%}
+                {%- assign link_text = '<span class="tooltip"><a class="stale-link" href="' | append: 'javascript:void(0)' | append: '">' | append: title | append: '</a> <span class="right bottom"> <span class="tooltip-title">' | append: {{site.privatelinks.title}} | append: '</span><br/><span class="tooltip-excerpt">' | append: {{site.privatelinks.msg}} | append : ' <br/></span> </span></span>' -%}
             {%- else -%}
-                    {%- assign post = site.notes | where: 'title',titleonly -%}
-                    {%- if post[0].title == nil -%}
-                        {%- assign post = site.posts | where: 'title',titleonly -%}
-                    {%- endif -%}
-                    {%- assign excerpt = post[0].content | markdownify | strip_html | truncate: 200 | newline_to_br -%}
-                    {%- if site.preferences.pagepreview.enabled -%}
-                        {%- assign link_text = '<span class="tooltip"><a href="' |append: {{site.baseurl}} | append: url | append: '">' | append: titleoralias | append: '</a><span class="right bottom"><span class="tooltip-title">' | append: titleoralias | append: '</span><br/><span class="tooltip-excerpt">' | append: excerpt | remove: "[[" | remove: "]]" | append: '</span><i></i></span></span>' -%}
-                    {%- else -%}
-                        {%- assign link_text = '<span><a href="' | append: url | append: '">' | append: titleoralias | append: '</a></span>' -%}
-                    {%- endif -%}
+                {%- assign post = site.notes | where: 'title',title -%}
+                {%- if post[0].title == nil -%}
+                    {%- assign post = site.posts | where: 'title',title -%}
+                {%- endif -%}
+                {%- assign excerpt = post[0].content | markdownify | strip_html | truncate: 200 | newline_to_br -%}
+                {%- if site.preferences.pagepreview.enabled -%}
+                    {%- assign link_text = '<span class="tooltip"><a href="' | append: {{site.baseurl}} | append: url | append: '">' | append: title | append: '</a><span class="right bottom"><span class="tooltip-title">' | append: title | append: '</span><br/><span class="tooltip-excerpt">' | append: excerpt | remove: "[[" | remove: "]]" | append: '</span><i></i></span></span>' -%}
+                {%- else -%}
+                    {%- assign link_text = '<span><a href="' | append: url | append: '">' | append: title | append: '</a></span>' -%}
+                {%- endif -%}
             {%- endif -%}
-            {%- assign link_text = link_text | replace: '|','/' -%}
+            <!-- replace the image wikilink -->
+            {%- assign bracket_img = '![[' | append: title | append: ']]' -%}
+            {%- assign replaced_content = replaced_content | replace: bracket_img, link_text -%}
+            <!-- replace the wikilink -->
             {%- assign bracket_link = '[[' | append: title | append: ']]' -%}
-            {%- assign replaced_content = replaced_content | replace: bracket_link,link_text -%}
+            {%- assign replaced_content = replaced_content | replace: bracket_link, link_text -%}
         {%- endfor -%}
 
         {%- assign sideNoteCounter = 0 -%}
