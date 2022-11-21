@@ -16,7 +16,7 @@ df_sum = lapply(df_sum, FUN=function(x) gsub(",", "", x)) %>% as.data.frame()
 
 ## Metadata
 - topic:: [[00 Coding]]
-	- related:: [[R programming]]
+	- related:: [[01 R programming]]
 - updated:: [[2022-08-28]]
 - reviewed:: [[2022-08-28]]
 - #Reference 

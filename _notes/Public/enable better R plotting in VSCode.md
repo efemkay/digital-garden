@@ -2,7 +2,7 @@
 title: enable better R plotting in VSCode
 ---
 
-- #### Enable `R > Plot: Use httpgd` is VSCode settings to have better support for R plots (especially multiple plot in single command)
+- #### Enable `R > Plot: Use httpgd` is [[VS Code]] settings to have better support for R plots (especially multiple plot in single command)
 	- Default VSCode plot for R is simplistic and does not contain similar features like in R Studio (especially for multiple plot in single command)
 	- Require the httpgd library to be installed first. Run the following
 		- `install.packages("httpgd")`
@@ -13,7 +13,7 @@ title: enable better R plotting in VSCode
 
 ## Metadata
 - topic:: [[00 Coding]]
-	- related:: [[R programming]]
+	- related:: [[01 R programming]]
 - updated:: [[2022-08-21]]
 - reviewed:: [[2022-08-21]]
 - #Reference 

@@ -1,5 +1,5 @@
 ---
-title: Obsidian query with NIL query control and custom css
+title: Improved Obsidian query with NIL Query Control and custom css
 tags: [Reference]
 ---
 

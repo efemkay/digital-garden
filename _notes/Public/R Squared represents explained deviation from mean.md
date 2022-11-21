@@ -13,7 +13,7 @@ dg-publish: true
 	- This value ranges from 0 to 1. The higher the R2 value, the better a model fits a dataset.
 - #### Formula References
 	- $R^2= SSR/SST$
-	- $SSR = \sum (\hat{y}_{i}-\bar{y})^{2}$8
+	- $SSR = \sum (\hat{y}_{i}-\bar{y})^{2}$
 		- this expected (or explained) deviation from the mean, explaining part of the deviation
 	- $SSE = \sum (y_{i}-\hat{y}_{i})^{2}$
 		- this is **unexplained deviation** from the mean

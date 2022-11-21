@@ -4,7 +4,7 @@ title: 00 Learning & Tools
 ## Learning
 - [MyLearning (PETRONAS new e-learning portal)](https://petronas.csod.com/LMS/catalog/Welcome.aspx)
 - [[LTOF Guideline]]
-- [[01 RE for Non RE]]
+- [[10 RE for Non RE]]
 
 ## Tools
 - [Rystad Energy - Client Portal](https://www.rystadenergy.com/clients/)

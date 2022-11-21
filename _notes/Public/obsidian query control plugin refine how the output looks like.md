@@ -1,5 +1,6 @@
 ---
-title: obsidian query control plugin refine how the output looks like
+title: Obsidian Query Control plugin refine how the output looks like
+tags: [Reference]
 ---
 
 - #### [Obsidian Query Control plugin](https://github.com/nothingislost/obsidian-query-control) add refinement features to the vanilla Obsidian query for a better experience on note retrieval and reading
@@ -21,6 +22,7 @@ title: obsidian query control plugin refine how the output looks like
 		task-todo:""
 		```
 		~~~
+	- see my own tweak here [[Improved Obsidian query with NIL Query Control and custom css]]
 
 ## Metadata
 - topic:: [[01 Obsidian]]

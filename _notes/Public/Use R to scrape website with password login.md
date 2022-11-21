@@ -81,7 +81,7 @@ for(scode in todl_list){
 ```
 
 ## Metadata
-- topic:: [[R programming]]
+- topic:: [[01 R programming]]
 - updated:: [[2022-08-27]]
 - reviewed:: [[2022-08-27]]
 - #Reference 

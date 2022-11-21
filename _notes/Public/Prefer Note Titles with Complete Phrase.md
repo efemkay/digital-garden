@@ -2,11 +2,8 @@
 title: Prefer Note Titles with Complete Phrase
 ---
 
-- #### Metadata
-	- topic:: [[00 Productivity]]
-	- updated:: [[2022-06-20]]
-	- reviewed:: [[2022-06-20]]
-	- #LiteratureNote 
+> summary from Andy Matuschak’s note
+
 - #### Complete phrases as note title forces us to be convicted with the statement
 	- Evergreen or permanent notes should be concept-oriented
 		- For example: Educational objectives often subvert themselves, Evergreen notes permit smooth incremental progress in writing (“incremental writing”).
@@ -27,3 +24,9 @@ title: Prefer Note Titles with Complete Phrase
 
 ## References
 - [Prefer note titles with complete phrases to sharpen claims (andymatuschak.org)](https://notes.andymatuschak.org/z3KmNj3oKKSTJfqdfSEBzTQiCVGoC4GfK3rYW)
+
+## Metadata
+- topic:: [[00 Productivity]]
+- updated:: [[2022-06-20]]
+- reviewed:: [[2022-06-20]]
+- #LiteratureNote 

@@ -1,5 +1,6 @@
 ---
 title: 01 Dividend Growth Investing
+date: 01-01-2022
 ---
 
 - #### Metadata

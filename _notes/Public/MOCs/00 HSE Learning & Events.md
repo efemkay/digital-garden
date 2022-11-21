@@ -20,3 +20,9 @@ title: 00 HSE Learning & Events
 - Completed E-Learning
 	- Generative HSSE Culture
 		- completed 14Sep2021
+
+```query
+block: ([[00 HSE Learning & Events]])
+file: 2022
+hideTitle: true
+```
