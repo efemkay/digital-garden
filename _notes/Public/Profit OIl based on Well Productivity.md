@@ -1,5 +1,5 @@
 ---
-title: Profit OIl based on Well Productivity
+title: Profit Oil based on Well Productivity
 tags: [PermanentNote]
 ---
 

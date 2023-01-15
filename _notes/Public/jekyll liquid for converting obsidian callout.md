@@ -5,6 +5,7 @@ tags: [Reference]
 
 - #### this liquid snippet will find blockquote in jekyll website and detect whether it’s an obsidian callout – if so, tag with the appropriate class
 	- still missing, I should add `class="callout"` as well
+	- [[jekyll process converts markdown first before applying layout]]
 
 ```liquid
 
@@ -39,6 +40,6 @@ tags: [Reference]
 ## Metadata
 - topic:: [[00 Coding]]
 	- related:: [[01 Obsidian]], [[01 Jekyll]]
-- updated:: [[2022-10-10]]
-- reviewed:: [[2022-10-10]]
+- created:: [[2022-10-10]]
+- updated:: [[2023-01-15]]
 - #Reference 

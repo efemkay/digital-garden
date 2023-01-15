@@ -1,3 +1,8 @@
+---
+title: confidence interval vs prediction interval
+tags: [LiteratureNote]
+---
+
 ## Prediction Interval
 - **prediction interval** is a type of **confidence interval** (CI) used with predictions in regression analysis; it is a range of values that predicts the value of a new observation, based on your existing model. … A prediction interval is where you expect a future value to fall.
 - #### Prediction interval expresses inherent uncertainty in the particular data point **on top of the sampling uncertainty** – this makes them wider than the confidence interval.
